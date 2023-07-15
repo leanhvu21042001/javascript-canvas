@@ -1,0 +1,28 @@
+html,
+body,
+*,
+*::before,
+*::after {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+}
+
+select#animations {
+  font-size: 2rem;
+
+  height: 3rem;
+  border: 1px solid #000;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+canvas {
+  border: 1px solid #000;
+  border-radius: 5px;
+}
